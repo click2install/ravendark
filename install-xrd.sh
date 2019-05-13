@@ -215,7 +215,7 @@ if [ "$?" -gt "0" ];
     echo "apt-get update"
     echo "apt install -y make build-essential libtool software-properties-common autoconf libssl-dev libboost-dev libboost-chrono-dev libboost-filesystem-dev \
 libboost-program-options-dev libboost-system-dev libboost-test-dev libboost-thread-dev sudo automake git curl libdb4.8-dev \
-bsdmainutils libdb4.8++-dev libminiupnpc-dev libgmp3-dev ufw fail2ban pkg-config libevent-dev libzmq3 libzmq3-dbg llibzmq3-dev "
+bsdmainutils libdb4.8++-dev libminiupnpc-dev libgmp3-dev ufw fail2ban pkg-config libevent-dev libzmq3 libzmq3-dbg libzmq3-dev"
  exit 1
 fi
 
